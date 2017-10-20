@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.usuario.inventory.LoginActivity"
+    android:orientation="vertical"
+    android:padding="@dimen/lly_login_padding"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/txvSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/txvSignIn_margin"
+        android:text="@string/txvSignIn"
+        android:textAppearance="@android:style/TextAppearance.Holo.Large" />
+
+    <TextView
+        android:id="@+id/txvUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txvUser"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+
+    <EditText
+        android:id="@+id/edtUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="@dimen/edtUser"/>
+
+    <TextView
+        android:id="@+id/txvPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txvPassword"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <LinearLayout
+        android:id="@+id/llyHorizontalSIgn"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/lly_sign_options">
+
+        <CheckBox
+            android:id="@+id/chkRememberMe"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:text="@string/chkRemember"
+            android:textAppearance="@android:style/TextAppearance.Holo.Small" />
+
+        <TextView
+            android:id="@+id/txvSignUp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="@string/txvSignUp"
+            android:textAppearance="@android:style/TextAppearance.Holo.Small" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/btnSignIn"
+        android:background="@color/btnFacebook"
+        android:text="@string/btnSignIn" />
+
+    <Button
+        android:id="@+id/btnGoogleSign"
+        style="@style/Widget.Button.Transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/btnGoogle"
+        android:background="@color/btnGoogle"
+        android:drawableStart="@drawable/ic_google"
+        android:text="@string/btnGoogleSign" />
+
+    <Button
+        android:id="@+id/btnFacebookSign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/btnFacebook"
+        android:drawableStart="@drawable/ic_facebook"
+        android:text="@string/btnFacebookSign" />
+</LinearLayout>

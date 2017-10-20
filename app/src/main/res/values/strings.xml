@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Inventory</string>
+    <string name="txvSignIn">Acceder</string>
+    <string name="txvUser">Nombre usuario/Email</string>
+    <string name="txvPassword">Contraseña</string>
+    <string name="chkRemember">Recordar usuario</string>
+    <string name="txvSignUp">Registro</string>
+    <string name="btnSignIn">Acceder</string>
+    <string name="btnGoogleSign">Google</string>
+    <string name="btnFacebookSign">Facebook</string>
+
+    <string name="txvDescription">Descripcion</string>
+    <string name="txvName">Nombre</string>
+    <string name="btnChange">Cambio Fecha</string>
+    <string name="txvCreationDay">Fecha Creacion</string>
+
+    <string name="txvNameProduct">Nombre</string>
+    <string name="txvSerialProduct">Serial</string>
+    <string name="txvSellerProduct">Vendedor</string>
+    <string name="txvModelProduct">Modelo</string>
+    <string name="txvCategoryProduct">Categoria</string>
+    <string name="txvSubCategoryProduct">Subcategoria</string>
+    <string name="txvTypeProduct">Tipo</string>
+    <string name="txvDescriptionProduct">Descripcion</string>
+    <string name="txvPriceProduct">Precio</string>
+    <string name="txvBuyDay">Fecha de compra</string>
+    <string name="txvUrlProduct">URL</string>
+    <string name="txvNotesProduct">Notas</string>
+</resources>

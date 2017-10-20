@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Inventory</string>
+    <string name="txvSignIn">Sign In</string>
+    <string name="txvUser">User name/Email</string>
+    <string name="txvPassword">Password</string>
+    <string name="chkRemember">Remember User</string>
+    <string name="txvSignUp">Sign Up</string>
+    <string name="btnSignIn">Sign In</string>
+    <string name="btnGoogleSign">Google</string>
+    <string name="btnFacebookSign">Facebook</string>
+
+    <style name="txvDescription">Description</style>
+    <style name="txvName">Name</style>
+    <style name="btnChange">Change State</style>
+    <style name="txvCreationDay">Create Day</style>
+
+    <string name="txvNameProduct">Name</string>
+    <string name="txvSerialProduct">Serial</string>
+    <string name="txvSellerProduct">Seller</string>
+    <string name="txvModelProduct">Model</string>
+    <string name="txvCategoryProduct">Category</string>
+    <string name="txvSubCategoryProduct">Subcategory</string>
+    <string name="txvTypeProduct">Type</string>
+    <string name="txvDescriptionProduct">Description</string>
+    <string name="txvPriceProduct">Price</string>
+    <string name="txvBuyDay">Buy Day</string>
+    <string name="txvUrlProduct">URL</string>
+    <string name="txvNotesProduct">Notes</string>
+</resources>
