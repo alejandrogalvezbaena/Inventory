@@ -22,6 +22,8 @@ public class DashBoardActivity extends AppCompatActivity {
 
     private GridLayout gridDashboard;
     private  ClickListenerDashboard listenerDashboard;
+    private  int[] images=new int[12];
+    private  static int INVENTORY;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -76,6 +78,17 @@ public class DashBoardActivity extends AppCompatActivity {
         }
     }
 
+    private void generateId(int i, ImageView imageView)
+    {
+        switch (images[i])
+        {
+            case  R.drawable.inventory:
+                INVENTORY = View.generateViewId();
+                imageView.setId(INVENTORY);
+                break;
+        }
+    }
+
     class ClickListenerDashboard implements View.OnClickListener
     {
 
@@ -91,6 +104,10 @@ public class DashBoardActivity extends AppCompatActivity {
                     break;
                 case  6:
                     intent=new Intent(DashBoardActivity.this, ProductActivity.class);
+                    startActivity(intent);
+                    break;
+                case 10:
+                    intent=new Intent(DashBoardActivity.this, DependencyActivity.class);
                     startActivity(intent);
                     break;
             }
